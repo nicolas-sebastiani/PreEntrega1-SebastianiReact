@@ -1,3 +1,4 @@
+import CartWidget from "./CartWidget"
 import Logo from "./logo"
 import Navbar from "./Navbar"
 
