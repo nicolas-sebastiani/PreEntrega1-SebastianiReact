@@ -1,6 +1,6 @@
 import CartWidget from "./CartWidget"
 
-function Navbar () {
+export default function Navbar () {
     return <ul>
             <li>
                 <a href="/hardware">Hardware</a>
@@ -19,5 +19,3 @@ function Navbar () {
             </li>
         </ul>
 }
-
-export default Navbar

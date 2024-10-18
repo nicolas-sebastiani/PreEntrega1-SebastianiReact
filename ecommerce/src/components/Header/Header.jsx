@@ -1,8 +1,7 @@
-import CartWidget from "./CartWidget"
 import Logo from "./logo"
 import Navbar from "./Navbar"
 
-function Header (){
+export default function Header (){
     return(
         <header className="nav">
             <Logo/>
@@ -10,4 +9,3 @@ function Header (){
         </header>
     )
 }
-export default Header

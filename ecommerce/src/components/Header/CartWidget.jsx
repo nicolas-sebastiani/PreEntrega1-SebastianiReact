@@ -1,12 +1,10 @@
 import { IoIosCart } from "react-icons/io";
 
-const CartWidget = () => {
+export default function CartWidget () {
     return (
         <>
-        <IoIosCart size={40} color="#e6e6ff"/>
+        <IoIosCart className="cart-widget"/>
         <p>3</p>
         </>
     )
 }
-
-export default CartWidget
